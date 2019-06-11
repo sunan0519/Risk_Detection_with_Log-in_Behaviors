@@ -86,7 +86,7 @@ precision rate for risk of class 1 we get is extremely high while the recall rat
 like this, precision is far more important than recall. Classifying a customer's transaction as risk by
 mistake will undermine user experience significantly.
 
-![confusion matrix](https://github.com/sunan0519/Risk_Detection_with_Log-in_Behaviors/edit/master/confusion_matrix.jpg)
+![](https://github.com/sunan0519/Risk_Detection_with_Log-in_Behaviors/blob/master/confusion_matrix.jpg)
 
 
 We also draw a bar plot of feature importance. From the figure we can observe that the
@@ -94,4 +94,4 @@ feature - device used in the most recent log-in behaviour among all devices a us
 the most important one. The features - whether the most recent log-in is scanned log-in and, whether
 it is successful - impact little on our model.
 
-![feature importance](https://github.com/sunan0519/Risk_Detection_with_Log-in_Behaviors/edit/master/feature_importance.jpg)
+![](https://github.com/sunan0519/Risk_Detection_with_Log-in_Behaviors/blob/master/feature_importance.jpg)
